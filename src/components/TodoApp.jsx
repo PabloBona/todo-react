@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import InputTodo from './InputTodo';
+import TodoLogic from './TodoLogic';
 
 const TodoApp = () => (
   <div className="container">
@@ -8,7 +8,7 @@ const TodoApp = () => (
       text="todos"
       text2="item will persisit in the browser local storage"
     />
-    <InputTodo />
+    <TodoLogic />
   </div>
 );
 
