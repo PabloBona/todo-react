@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+// eslint-disable-next-line import/extensions
+import App from './App.jsx';
 
 test('renders learn react link', () => {
   render(<App />);
