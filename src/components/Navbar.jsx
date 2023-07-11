@@ -14,7 +14,8 @@ const Navbar = () => {
     document.addEventListener('mousedown', handler);
   }, [dropdown]);
   return (
-    <nav className="row">
+
+    <nav className="row navbar navbar-expand-lg">
       <ul className="col list-unstyled d-flex justify-content-end gap-3 my-3">
         <li>Home</li>
         <li>About</li>
