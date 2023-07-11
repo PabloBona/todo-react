@@ -1,14 +1,12 @@
-import React from 'react';
 import Header from './Header';
-import TodoLogic from './TodoLogic';
+import TodosLogic from './TodosLogic';
+import Navbar from './Navbar';
 
 const TodoApp = () => (
   <div className="container">
-    <Header
-      text="todos"
-      text2="item will persisit in the browser local storage"
-    />
-    <TodoLogic />
+    <Navbar />
+    <Header />
+    <TodosLogic />
   </div>
 );
 
